@@ -2,6 +2,7 @@ import { Link } from "react-scroll";
 import logo from "../assets/img/logo4.png";
 import { RiMenu3Line } from "react-icons/ri";
 import { useEffect } from "react";
+
 import ScrollReveal from "scrollreveal";
 
 function Navbar() {
