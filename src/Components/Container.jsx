@@ -1,46 +1,46 @@
-import b1 from "../assets/img/b1.png";
-import b2 from "../assets/img/b2.png";
-import b3 from "../assets/img/b3.png";
-import b4 from "../assets/img/b4.png";
+import cake from "../assets/img/cake.jpg";
+import coffee from "../assets/img/coffee.jpg";
+import lemonade from "../assets/img/lemonade.jpg";
+import icecream from "../assets/img/ice-cream.jpg";
 
 function Container() {
   return (
     <div className="container">
       <div className="main-text">
-        <h2>Ingredients</h2>
-        <p>Only the best for you</p>
+        <h2>U ponudi</h2>
+        <p>Samo najbolji proizvodi za Vas</p>
       </div>
       <div className="container-box">
         <div className="c-mainbox">
           <div className="container-img">
-            <img src={b1} alt="box1" />
+            <img src={cake} alt="box1" />
           </div>
           <div className="container-text">
-            <p>Delicate Dough</p>
+            <p>Torta</p>
           </div>
         </div>
         <div className="c-mainbox">
           <div className="container-img">
-            <img src={b2} alt="box2" />
+            <img src={coffee} alt="box2" />
           </div>
           <div className="container-text">
-            <p>Tomatoes</p>
+            <p>Kahva</p>
           </div>
         </div>
         <div className="c-mainbox">
           <div className="container-img">
-            <img src={b3} alt="box3" />
+            <img src={lemonade} alt="box3" />
           </div>
           <div className="container-text">
-            <p>Cheese</p>
+            <p>Limunada</p>
           </div>
         </div>
         <div className="c-mainbox">
           <div className="container-img">
-            <img src={b4} alt="box4" />
+            <img src={icecream} alt="box4" />
           </div>
           <div className="container-text">
-            <p>Sausage</p>
+            <p>Sladoled</p>
           </div>
         </div>
       </div>

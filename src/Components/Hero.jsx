@@ -1,16 +1,18 @@
-import heroImg from "../assets/img/home.png";
+import heroImg from "../assets/img/home2.jpg";
 
 function Hero() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="home-text">
         <h1>
-          <span>Welcome</span> to The world of Tasty & Fresh Pizza
+          Dobrodošli u <span>Laterna Cake House</span> neka naša torta zasladi
+          vaš dan!
         </h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-          doloribus cupiditate ab quidem quasi illum nemo veniam fugit nam
-          debitis. <br /> Lorem ipsum dolor sit amet.
+          Dobrodošli u svet neodoljivih kolača, raskošnih torti, osvežavajuće
+          limunade i kremastog sladoleda. Pripremamo za vas najbolje delicije,
+          savršene za svaku priliku. <br /> Otkrijte našu ponudu i prepustite se
+          uživanju u svakom zalogaju!
         </p>
       </div>
       <div className="home-img">
