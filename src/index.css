@@ -224,13 +224,16 @@ span {
   color: var(--main-color);
   font-size: 23px;
 }
+.row {
+  padding-bottom: 1rem;
+}
 .row p {
   color: var(--second-color);
   font-size: 15px;
   line-height: 30px;
   margin-bottom: 15px;
 }
-.star i {
+.star {
   color: var(--main-color);
   font-size: 17px;
   margin-right: 4px;
@@ -388,10 +391,10 @@ span {
 }
 @media (max-height: 680px) {
   .container {
-    margin-top: 150px;
+    margin-top: 16rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .header {
     padding: 23px 10%;
   }
@@ -406,7 +409,7 @@ span {
   }
   .container-box {
     grid-template-columns: auto;
-    margin: 1rem;
+    margin: 1rem 0;
   }
   .section {
     padding: 50px 10% 20px;
