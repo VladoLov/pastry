@@ -391,3 +391,38 @@ span {
     margin-top: 150px;
   }
 }
+@media (max-width: 500px) {
+  .header {
+    padding: 23px 10%;
+  }
+  .header.sticky {
+    padding: 10px 10%;
+  }
+  .main-text {
+    padding: 2rem;
+  }
+  .container {
+    margin-top: 8rem;
+  }
+  .container-box {
+    grid-template-columns: auto;
+    margin: 1rem;
+  }
+  .section {
+    padding: 50px 10% 20px;
+  }
+  .about-img img {
+    padding-top: 10px;
+  }
+  .about-text h2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-text p {
+    margin-bottom: 0.5rem;
+  }
+  .menu-content {
+    margin-top: 1rem;
+  }
+}

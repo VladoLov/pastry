@@ -24,7 +24,7 @@ function Container() {
             <img src={coffee} alt="box2" />
           </div>
           <div className="container-text">
-            <p>Kahva</p>
+            <p>Kafa</p>
           </div>
         </div>
         <div className="c-mainbox">
