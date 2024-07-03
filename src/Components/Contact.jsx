@@ -1,3 +1,6 @@
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+
 function Contact() {
   return (
     <section className="section contact" id="contact">
@@ -24,10 +27,11 @@ function Contact() {
           <ul>
             <li>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/_caffelanterna_?igsh=MzRlODBiNWFlZA=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                <FaInstagram className="social-icons" />
                 Instagram
               </a>
             </li>
@@ -37,6 +41,7 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                <FaFacebookF className="social-icon" />
                 Facebook
               </a>
             </li>

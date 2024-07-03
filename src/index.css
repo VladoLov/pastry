@@ -254,21 +254,31 @@ span {
   font-size: 20px;
   color: var(--text-color);
   margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact-content li {
   margin-bottom: 16px;
 }
 .contact-content li a {
-  display: block;
+  display: flex;
   color: var(--text-color);
   font-size: 15px;
   font-weight: 500;
   transition: all 0.4s ease;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
 }
 .contact-content li a:hover {
   transform: translateX(10px);
   color: var(--main-color);
 }
+.social-icons {
+  bottom: 50%;
+}
+
 .last-text p {
   text-align: center;
   padding: 25px;
