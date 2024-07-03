@@ -1,24 +1,43 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
+import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { MdHome } from "react-icons/md";
+import { GrContactInfo } from "react-icons/gr";
+import { MdContactPhone } from "react-icons/md";
+/* import { FaViber } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa"; */
 
 function Contact() {
   return (
     <section className="section contact" id="contact">
       <div className="main-contact">
         <div className="contact-content">
-          <h4>Usluge</h4>
+          <h4>Sekcije</h4>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home">
+                <MdHome />
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about">
+                <GrContactInfo />O Nama
+              </a>
             </li>
             <li>
-              <a href="#menu">Menu</a>
+              <a href="#menu">
+                <MdOutlineRestaurantMenu />
+                Menu
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">
+                <MdContactPhone />
+                Kontakt
+              </a>
             </li>
           </ul>
         </div>
@@ -52,11 +71,18 @@ function Contact() {
           <ul>
             <li>
               <a href="tel:+38761692250">
-                Mob preko What&apos;s Up-a i Viber-a
+                <FaWhatsapp />
+                +38761692250
+                <br />
+                {/* <FaPhoneAlt /> */}
+                {/* <FaViber /> */}
               </a>
             </li>
             <li>
-              <a href="lovric_v@hotmail.com">Email</a>
+              <a href="lovric_v@hotmail.com">
+                <FaMailBulk />
+                Email
+              </a>
             </li>
           </ul>
         </div>
